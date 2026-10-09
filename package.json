@@ -1,0 +1,28 @@
+{
+  "name": "pg-jobs-and-reports",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Excerpts: Postgres-backed jobs, workers and reporting queries (not a runnable app)",
+  "scripts": {
+    "test": "vitest run",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.680.0",
+    "@aws-sdk/lib-storage": "^3.680.0",
+    "csv-parse": "^5.5.6",
+    "drizzle-orm": "^0.36.0",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.28.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
